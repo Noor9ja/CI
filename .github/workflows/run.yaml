@@ -20,7 +20,7 @@ jobs:
               env: 
                 IMAGE_NAME: ci
                 VERSION: 1
-                USERNAME: Noor9ja 
+                USERNAME: nurudinho
               run: |
                    docker build -t $USERNAME/$IMAGE_NAME:$VERSION .
                    docker push $USERNAME/$IMAGE_NAME:$VERSION
